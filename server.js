@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://git.heroku.com/deploys.git"
+  origin: "git.heroku.com/deploys.git"
 };
 
 app.use(cors(corsOptions));
