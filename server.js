@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://github.com/Dev-AM/deploysMysqlAPI"
+  origin: "https://git.heroku.com/deploys.git"
 };
 
 app.use(cors(corsOptions));
